@@ -1,3 +1,5 @@
+#define NOMINMAX
+#include <windows.h>
 #include <iostream>
 #include <string>
 #include <limits>
@@ -33,6 +35,9 @@ static SampleOrder inputOrder() {
 }
 
 int main() {
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+
     auto orders = loadFromFile(DATA_FILE);
     int choice;
 
