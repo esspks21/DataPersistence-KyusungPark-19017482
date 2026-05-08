@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="DataPersistence-KyusungPark-19017482/DataPersistence-KyusungPark-19017482.vcxproj" />
+  <Project Path="DataPersistence-KyusungPark-19017482/DataPersistence-KyusungPark-19017482.vcxproj" Id="a45d1d92-f1eb-4e15-b98b-611b1efafd88" />
 </Solution>
