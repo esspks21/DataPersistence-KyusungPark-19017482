@@ -131,7 +131,15 @@
     </Link>
   </ItemDefinitionGroup>
 
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JsonStorage.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SampleOrder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JsonStorage.h" />
+    <ClInclude Include="SampleOrder.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
